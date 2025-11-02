@@ -1,0 +1,31 @@
+site_name: GSoC 2025 Project Report
+site_description: Google Summer of Code 2025 Project Summary
+site_author: Bassam Adnan
+
+theme:
+  name: material
+  logo: ""
+  favicon: ""
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
