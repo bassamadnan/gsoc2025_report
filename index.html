@@ -691,13 +691,6 @@ Created scripts to extract and diff extension views across PostgreSQL versions, 
 <li><strong>100+ metrics</strong> added for extension monitoring alone, added metrics for PostgreSQL 18 as well.</li>
 <li><strong>PostgreSQL 13+</strong> version support with ongoing compatibility work</li>
 </ul>
-<p><strong>PRs :</strong>
-- Extension detection and core implementation
-- Test suite infrastructure
-- Duplicate metric detection using ART
-- HTTP API refactor with deque-based header lookups
-- Extension documentation and metric integration</p>
-<hr />
 <hr />
 <h2 id="learning-outcomes">Learning Outcomes</h2>
 <p>Through this project, I had a great time developing my skills in C. Engaging with syscalls for the first time outside an academic project, I got to learn much more about how shared memory space works, transferring data via HTTP (by building my own HTTP suite!) and where exactly is encryption used in the network. Apart from that, PostgreSQL wire protocol was a very fun read. Abit of a nightmare to deal with was GitHub Actions, I still remember the time we had one failing test case only in FreeBSD systems while every other system seemed just okay.</p>
@@ -706,9 +699,7 @@ Created scripts to extract and diff extension views across PostgreSQL versions, 
 <h2 id="future-work">Future Work</h2>
 <ul>
 <li><strong>More Extensions</strong>: pg_partman, pg_qualstats, hstore metrics</li>
-<li><strong>Dependency Handling</strong>: Automatic detection of extension dependency chains</li>
-<li><strong>pgexporter Registry</strong>: Central repository for community-contributed extension metrics</li>
-<li><strong>Performance Optimization</strong>: Caching mechanisms for frequently-queried metrics</li>
+<li><strong>Monitoring Solutions</strong>: Alternative to Grafana more fine tuned for pgexporter use cases.</li>
 </ul>
 <hr />
 <h2 id="acknowledgements">Acknowledgements</h2>
