@@ -572,6 +572,12 @@
 
 
 <h1 id="gsoc-2025-extension-support-for-pgexporter">GSoC 2025: Extension Support for pgexporter</h1>
+<p><strong>Project Title:</strong> Extension Support for pgexporter<br />
+<strong>Contributor:</strong> Bassam Adnan<br />
+<strong>Organization:</strong> PostgreSQL<br />
+<strong>Mentors:</strong> Jesper Pedersen (My-Wine-Cellar), Saurav Pal (resyfer)<br />
+<strong>Progress Report:</strong> <a href="https://github.com/pgexporter/pgexporter/discussions/221">https://github.com/pgexporter/pgexporter/discussions/221</a><br />
+<strong>Proposal:</strong> PostgreSQL extensions can offer detailed views of query performance, storage usage, and system health but this would need frequent manual setup to be used with monitoring systems. Our proposal improves upon pgexporter through automatic detection of supported extensions and the output of pre-configured metrics for vital extensions such as pg_stat_statements, pg_buffercache, and pg_stat_monitor. It allows easy observability, diminishes the role of manual setup, and helps for optimal data-driven database performance monitoring. Please find my detailed proposal <a href="https://docs.google.com/document/d/1EPbXDyh524dscINv4Yv-B8Qo7lo7Cjkex9w6P38g7JE/edit?usp=sharing">here</a>.</p>
 <hr />
 <h2 id="project-overview">Project Overview</h2>
 <p>pgexporter is a Prometheus exporter for PostgreSQL that provides database metrics. This project adds <strong>extension support</strong> to pgexporter, enabling automatic detection, version handling, and metric collection from popular PostgreSQL extensions. See <strong>Discussion Forum:</strong> <a href="https://github.com/pgexporter/pgexporter/discussions/221">GSoC 2025 Extension Support #221</a> for an extensive discussion of how the project played out.</p>
