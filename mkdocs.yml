@@ -29,3 +29,6 @@ theme:
 
 nav:
   - Home: index.md
+
+# Live reload enabled by default with mkdocs serve
+use_directory_urls: true
