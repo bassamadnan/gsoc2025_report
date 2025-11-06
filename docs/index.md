@@ -92,6 +92,12 @@ Created scripts to extract and diff extension views across PostgreSQL versions, 
 
 ---
 
+## Challenges Faced
+
+No project (atleast the ones you learn from!) come without challenges. For me personally memory leaks have always been a problem when working with C. Even more when you have a constantly running program such as pgexporter. When they surface due to reasons which arent even deterministic sometimes, it can be quite tough  to figure your way around it. I have gained enough exposure to ASan, something I never worked with before to help me deal with such issues. A constant pain was waiting on CI results only for them to fail in a few systems while pass in other, lets just say, dealing with this has helped me with  patience. 
+
+---
+
 ## Learning Outcomes
 
 Through this project, I had a great time developing my skills in C. Engaging with syscalls for the first time outside an academic project, I got to learn much more about how shared memory space works, transferring data via HTTP (by building my own HTTP suite!) and where exactly is encryption used in the network. Apart from that, PostgreSQL wire protocol was a very fun read. Abit of a nightmare to deal with was GitHub Actions, I still remember the time we had one failing test case only in FreeBSD systems while every other system seemed just okay.
