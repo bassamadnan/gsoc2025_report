@@ -2,6 +2,9 @@ site_name: GSoC 2025 Project Report
 site_description: Google Summer of Code 2025 Project Summary
 site_author: Bassam Adnan
 
+repo_url: https://github.com/pgexporter/pgexporter
+repo_name: pgexporter/pgexporter
+
 theme:
   name: material
   logo: ""
